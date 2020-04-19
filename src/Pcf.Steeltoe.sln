@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Web", "Pcf.Steeltoe.Dotnet.Core.Web\Pcf.Steeltoe.Dotnet.Core.Web.csproj", "{9D5867F9-D986-489D-AB67-5DD75A383908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Eureka.Api", "Pcf.Steeltoe.Dotnet.Core.Eureka.Api\Pcf.Steeltoe.Dotnet.Core.Eureka.Api.csproj", "{F2CFF378-F2F1-4654-8A3D-222BC5DC4A17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Hystrix.Api", "Pcf.Steeltoe.Dotnet.Core.Hystrix.Api\Pcf.Steeltoe.Dotnet.Core.Hystrix.Api.csproj", "{7B182A93-B8D8-42C4-BF36-1E3F5D820D32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Hystrix.Fallback.Api", "Pcf.Steeltoe.Dotnet.Core.Hystrix.Fallback.Api\Pcf.Steeltoe.Dotnet.Core.Hystrix.Fallback.Api.csproj", "{DCE2234F-4691-45CE-B241-EF5EF99F979D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D58393A-31DD-4412-9D30-48F1D5B12C82}"
+	ProjectSection(SolutionItems) = preProject
+		application-development.properties = application-development.properties
+		application-production.properties = application-production.properties
+		application-staging.properties = application-staging.properties
+		cf-push-all.bat = cf-push-all.bat
+		config.json = config.json
+		create-services.bat = create-services.bat
+		reset.bat = reset.bat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Management", "Pcf.Steeltoe.Dotnet.Core.Management\Pcf.Steeltoe.Dotnet.Core.Management.csproj", "{6E8DB121-4525-4C45-B814-2887E6C257D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pcf.Steeltoe.Dotnet.Core.Security", "Pcf.Steeltoe.Dotnet.Core.Security\Pcf.Steeltoe.Dotnet.Core.Security.csproj", "{9E1D3B7E-9537-4520-9315-34361B8DF21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.Config", "Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.Config\Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.Config.csproj", "{98F37290-29CC-4532-A6DC-AEA2DACADA13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dotnet.Core", "Dotnet.Core", "{0A9E9AA4-AD8B-4C9B-97B7-87A3DA3A0082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dotnet.Framework", "Dotnet.Framework", "{5CA56E32-BD03-42D6-BE20-5753D2D72BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.EntityFramework", "Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.EntityFramework\Pcf.Steeltoe.Dotnet.Framework.Mvc.Windows.EntityFramework.csproj", "{758F261D-C9C5-493F-B86C-E5129DD4B4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTester", "LoadTester\LoadTester.csproj", "{E3DF987B-ABED-4136-9E25-16B4F1F7ED83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D5867F9-D986-489D-AB67-5DD75A383908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5867F9-D986-489D-AB67-5DD75A383908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5867F9-D986-489D-AB67-5DD75A383908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5867F9-D986-489D-AB67-5DD75A383908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CFF378-F2F1-4654-8A3D-222BC5DC4A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CFF378-F2F1-4654-8A3D-222BC5DC4A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CFF378-F2F1-4654-8A3D-222BC5DC4A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CFF378-F2F1-4654-8A3D-222BC5DC4A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B182A93-B8D8-42C4-BF36-1E3F5D820D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B182A93-B8D8-42C4-BF36-1E3F5D820D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B182A93-B8D8-42C4-BF36-1E3F5D820D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B182A93-B8D8-42C4-BF36-1E3F5D820D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE2234F-4691-45CE-B241-EF5EF99F979D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE2234F-4691-45CE-B241-EF5EF99F979D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE2234F-4691-45CE-B241-EF5EF99F979D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE2234F-4691-45CE-B241-EF5EF99F979D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8DB121-4525-4C45-B814-2887E6C257D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8DB121-4525-4C45-B814-2887E6C257D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8DB121-4525-4C45-B814-2887E6C257D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8DB121-4525-4C45-B814-2887E6C257D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1D3B7E-9537-4520-9315-34361B8DF21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1D3B7E-9537-4520-9315-34361B8DF21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1D3B7E-9537-4520-9315-34361B8DF21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1D3B7E-9537-4520-9315-34361B8DF21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F37290-29CC-4532-A6DC-AEA2DACADA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F37290-29CC-4532-A6DC-AEA2DACADA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F37290-29CC-4532-A6DC-AEA2DACADA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F37290-29CC-4532-A6DC-AEA2DACADA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758F261D-C9C5-493F-B86C-E5129DD4B4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758F261D-C9C5-493F-B86C-E5129DD4B4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758F261D-C9C5-493F-B86C-E5129DD4B4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758F261D-C9C5-493F-B86C-E5129DD4B4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DF987B-ABED-4136-9E25-16B4F1F7ED83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DF987B-ABED-4136-9E25-16B4F1F7ED83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DF987B-ABED-4136-9E25-16B4F1F7ED83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DF987B-ABED-4136-9E25-16B4F1F7ED83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{758F261D-C9C5-493F-B86C-E5129DD4B4E4} = {5CA56E32-BD03-42D6-BE20-5753D2D72BC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A69D84A-BD73-4AD5-B2C6-6FCCC4FA78A2}
+	EndGlobalSection
+EndGlobal

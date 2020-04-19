@@ -1,0 +1,14 @@
+﻿---
+applications:
+-   name: pcf-steeltoe-dotnet-core-web
+    buildpacks:
+    -   https://github.com/cloudfoundry/dotnet-core-buildpack/releases/download/v2.2.6/dotnet-core-buildpack-cflinuxfs3-v2.2.6.zip    
+    disk_quota: 512M
+    memory: 512M
+    services:
+    -   pcf-steeltoe-config-server
+    -   pcf-steeltoe-service-registry
+    -   pcf-steeltoe-circuit-breaker-dashboard
+    -   pcf-steeltoe-cups-database
+    env:
+        ASPNETCORE_ENVIRONMENT: production

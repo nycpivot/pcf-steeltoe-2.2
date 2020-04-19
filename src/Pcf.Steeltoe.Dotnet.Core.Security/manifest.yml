@@ -1,0 +1,12 @@
+﻿---
+applications:
+- name: pcf-steeltoe-dotnet-core-security
+  buildpacks:
+  -   https://github.com/cloudfoundry/dotnet-core-buildpack/releases/download/v2.2.6/dotnet-core-buildpack-cflinuxfs3-v2.2.6.zip 
+  stack: cflinuxfs3
+  memory: 512M
+  services:
+  - pcf-steeltoe-sso
+  env:
+    SSO_IDENTITY_PROVIDERS: uaa,pcf-sso-auth0
+    SSO_REDIRECT_URIS: http://pcf-steeltoe-dotnet-core-security.apps.pcfone.io/signin-cloudfoundry,https://pcf-steeltoe-dotnet-core-security.apps.pcfone.io/signin-cloudfoundry

@@ -1,0 +1,9 @@
+﻿---
+applications:
+-   name: pcf-steeltoe-dotnet-core-eureka-api
+    buildpacks:
+    -   https://github.com/cloudfoundry/dotnet-core-buildpack/releases/download/v2.2.6/dotnet-core-buildpack-cflinuxfs3-v2.2.6.zip 
+    disk_quota: 512M
+    memory: 512M
+    services:
+    -   pcf-steeltoe-service-registry
